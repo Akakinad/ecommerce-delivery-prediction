@@ -1,5 +1,11 @@
-
 # 📦 Predicting Product Delivery Delays in E-Commerce
+
+## 🌐 Live Demo
+**Try it now:** [https://ecommerce-delivery-prediction-ak.streamlit.app](https://ecommerce-delivery-prediction-ak.streamlit.app)
+
+Test the model with different order parameters and see real-time predictions!
+
+---
 
 ## 🚀 Executive Summary
 
@@ -121,8 +127,8 @@
 
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/<your-username>/ecommerce-delivery-prediction.git
-   cd ecommerce-delivery-prediction
+   git clone https://github.com/Akakinad/ecommerce-delivery-prediction-ak.git
+   cd ecommerce-delivery-prediction-ak
 ```
 
 2. **Create virtual environment**
@@ -153,7 +159,7 @@
 
 ## 📁 Project Structure
 ```
-ecommerce-delivery-prediction/
+ecommerce-delivery-prediction-ak/
 ├── data/                    # Raw and processed datasets
 ├── notebooks/               # Jupyter analysis notebooks
 │   └── 01_eda_and_modeling.ipynb
@@ -184,34 +190,10 @@ ecommerce-delivery-prediction/
 
 ---
 
-## 📬 Contact   
-🐙 [GitHub](https://github.com/akakinad)
+## 📬 Contact
+🐙 [GitHub](https://github.com/Akakinad)
 
 ---
 
 ## 📄 License
 This project is licensed under the MIT License.
-
----
-
-## 🌐 Live Demo
-
-**Try it now:** [https://ecommerce-delay-predictor-ak.streamlit.app](https://ecommerce-delay-predictor-ak.streamlit.app)
-
-Test the model with different order parameters and see real-time predictions!
-
----
-
-## 🌐 Live Demo
-
-**Try it now:** [https://ecommerce-delay-predictor-ak.streamlit.app](https://ecommerce-delay-predictor-ak.streamlit.app)
-
-Test the model with different order parameters and see real-time predictions!
-
----
-
-## 🌐 Live Demo
-
-**Try it now:** [https://ecommerce-delivery-predictor-ak.streamlit.app](https://ecommerce-delay-predictor-ak.streamlit.app)
-
-Test the model with different order parameters and see real-time predictions!
