@@ -1,0 +1,121 @@
+PREDICTING LATE DELIVERIES IN E-COMMERCE
+Business Insights & Strategic Recommendations
+================================================
+
+Project Context
+---------------
+Timely delivery is a critical driver of customer satisfaction in the e-commerce industry.
+This analysis uses machine learning to identify orders at risk of late delivery for an
+international electronics retailer. The goal is to enable proactive logistics planning
+and operational optimization.
+
+Two models were used to generate insights:
+1. Logistic Regression (for interpretability and direction of impact)
+2. Random Forest (for feature importance and nonlinear relationships)
+
+The final predictive model selected was Logistic Regression due to its superior recall
+in identifying late deliveries, which aligns with business priorities.
+
+
+KEY FACTORS INFLUENCING LATE DELIVERIES
+--------------------------------------
+
+1. Product Weight and Cost (Strongest Driver)
+---------------------------------------------
+Random Forest identified product weight as the most important feature, supported by
+a strong interaction between cost and weight.
+
+Interpretation:
+Heavy and high-value electronic products are significantly more likely to be delayed.
+These items require additional handling, specialized packaging, and careful transport,
+which increases logistical complexity.
+
+Business Implication:
+Orders involving heavy and expensive items should be flagged as high-risk and prioritized
+in fulfillment and shipping workflows.
+
+
+2. Discount Level
+-----------------
+Discount level was the most influential variable in Logistic Regression and one of the
+top predictors in Random Forest.
+
+Interpretation:
+Highly discounted products are more likely to arrive late. This may be due to increased
+order volumes during promotions, lower prioritization, or strained logistics capacity.
+
+Business Implication:
+Discount campaigns should be accompanied by enhanced logistics planning, including
+additional capacity and priority routing for discounted orders.
+
+
+3. Customer Behavior Signals
+----------------------------
+Customer interaction metrics such as:
+- Calls per prior purchase
+- Number of customer care calls
+
+were consistently important across both models.
+
+Interpretation:
+Orders associated with frequent customer inquiries often indicate delivery issues or
+higher order complexity.
+
+Business Implication:
+Customer behavior data can be used as an early warning signal. Orders with unusually
+high inquiry rates should be proactively reviewed and escalated to logistics teams.
+
+
+4. Shipment Mode and Warehouse Location
+---------------------------------------
+Shipment mode (Road and Ship) and specific warehouses (B, D, F) were associated with
+higher delay risk.
+
+Interpretation:
+Slower transportation methods and underperforming warehouses contribute to delivery delays.
+
+Business Implication:
+- Time-sensitive orders should preferentially use faster shipment modes.
+- Operational audits should focus on warehouses with consistently higher delay risk.
+
+
+5. Product Importance and Customer Rating
+-----------------------------------------
+Higher product importance and customer ratings slightly reduce the likelihood of late delivery.
+
+Interpretation:
+Priority handling mechanisms are effective but limited in scope.
+
+Business Implication:
+Expanding priority handling rules to include additional high-risk orders could further
+reduce delays.
+
+
+STRATEGIC RECOMMENDATIONS
+-------------------------
+
+1. Implement Risk-Based Order Prioritization
+   - Automatically flag orders with high weight, high cost, or high discounts.
+   - Route these orders through prioritized fulfillment pipelines.
+
+2. Strengthen Logistics During Discount Campaigns
+   - Increase delivery capacity during promotions.
+   - Assign priority shipment methods to discounted products.
+
+3. Leverage Customer Behavior for Early Intervention
+   - Monitor calls-per-purchase ratios in real time.
+   - Escalate high-risk orders before delays occur.
+
+4. Optimize Shipment Mode Selection
+   - Use faster shipment modes for high-risk or high-value orders.
+   - Introduce buffer times for Road and Ship deliveries.
+
+5. Improve Warehouse Performance
+   - Conduct targeted process reviews in warehouses B, D, and F.
+   - Address staffing, routing, or inventory bottlenecks.
+
+Conclusion
+----------
+By combining predictive modeling with business interpretation, this project demonstrates
+how machine learning can be used not only to predict late deliveries, but also to drive
+actionable operational improvements across logistics, customer service, and fulfillment.
