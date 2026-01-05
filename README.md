@@ -204,14 +204,6 @@ Test the model with different order parameters and see real-time predictions!
 
 ## 🌐 Live Demo
 
-**Try it now:** [https://ecommerce-delay-predictor-ak.streamlit.app](https://ecommerce-delay-predictor-ak.streamlit.app)
-
-Test the model with different order parameters and see real-time predictions!
-
----
-
-## 🌐 Live Demo
-
-**Try it now:** [https://ecommerce-delivery-predictor-ak.streamlit.app](https://ecommerce-delay-predictor-ak.streamlit.app)
+**Try it now:** [https://ecommerce-delay-predictor-ak.streamlit.app](https://ecommerce-delivery-predictor-ak.streamlit.app)
 
 Test the model with different order parameters and see real-time predictions!
