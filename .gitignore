@@ -16,5 +16,3 @@ __pycache__/
 .vscode/
 .idea/
 
-# Large model files
-models/best_rf.pkl
