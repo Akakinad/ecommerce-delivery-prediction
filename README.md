@@ -191,3 +191,11 @@ ecommerce-delivery-prediction/
 
 ## 📄 License
 This project is licensed under the MIT License.
+
+---
+
+## 🌐 Live Demo
+
+**Try it now:** [https://ecommerce-delay-predictor-ak.streamlit.app](https://ecommerce-delay-predictor-ak.streamlit.app)
+
+Test the model with different order parameters and see real-time predictions!
