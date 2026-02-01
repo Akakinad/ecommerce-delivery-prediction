@@ -1,6 +1,12 @@
 
 # 📦 Predicting Product Delivery Delays in E-Commerce
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.0-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.52-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=Akakinad%2Fecommerce-delivery-prediction&label=Visitors&countColor=%23263759&style=flat)
+
 ## 🌐 Live Demo
 **Try it now:** [https://ecommerce-delivery-prediction-ak.streamlit.app](https://ecommerce-delivery-prediction-ak.streamlit.app)
 
@@ -128,8 +134,8 @@ Test the model with different order parameters and see real-time predictions!
 
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/Akakinad/ecommerce-delivery-prediction-ak.git
-   cd ecommerce-delivery-prediction-ak
+   git clone https://github.com/Akakinad/ecommerce-delivery-prediction.git
+   cd ecommerce-delivery-prediction
 ```
 
 2. **Create virtual environment**
@@ -160,7 +166,7 @@ Test the model with different order parameters and see real-time predictions!
 
 ## 📁 Project Structure
 ```
-ecommerce-delivery-prediction-ak/
+ecommerce-delivery-prediction/
 ├── data/                    # Raw and processed datasets
 ├── notebooks/               # Jupyter analysis notebooks
 │   └── 01_eda_and_modeling.ipynb
