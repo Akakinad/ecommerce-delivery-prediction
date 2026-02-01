@@ -175,3 +175,26 @@ with st.expander("🔧 See processed input features"):
 # --- Footer ---
 st.markdown("---")
 st.markdown("**Built with:** Python • Scikit-learn • Streamlit")
+
+# ============================================================================
+# FOOTER WITH VISITOR COUNTER
+# ============================================================================
+
+st.markdown("---")
+
+# Visitor counter using hits.sh
+col1, col2, col3 = st.columns([1, 2, 1])
+
+with col2:
+    st.markdown("""
+    <div style='text-align: center;'>
+        <img src='https://hits.sh/github.com/Akakinad/ecommerce-delivery-prediction.svg?label=Visitors&color=4c1&labelColor=2c3e50' alt='Visitors'/>
+    </div>
+    """, unsafe_allow_html=True)
+
+st.markdown("""
+<div style='text-align: center; color: #7f8c8d; padding: 20px;'>
+    <p>Built with Streamlit 🎈 | Powered by Machine Learning 🤖</p>
+    <p>This is a portfolio project demonstrating end-to-end ML workflow</p>
+</div>
+""", unsafe_allow_html=True)
